@@ -1,0 +1,9 @@
+CREATE USER 'develop'@'localhost'IDENTIFIED BY 'azpst8FANZ';
+GRANT ALL PRIVILEGES ON *.* to 'develop'@'localhost';
+
+mkdir -p ~/.ssh/ec2
+vi ~/.ssh/ec2/ec2-develop.pem
+
+Host ec2-mgushikenUser mgushikenHostName 54.235.213.77identityfile ~/.ssh/ec2/ec2-develop.pemServerAliveInterval 15
+
+git clone ssh://ec2-mgushiken/home/gitrepo/studymatch_sample.git

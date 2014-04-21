@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF7DDD5018F967CB00434475 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7DDD4F18F967CB00434475 /* Foundation.framework */; };
+		CF7DDD5218F967CB00434475 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7DDD5118F967CB00434475 /* CoreGraphics.framework */; };
+		CF7DDD5418F967CB00434475 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7DDD5318F967CB00434475 /* UIKit.framework */; };
+		CF7DDD5A18F967CB00434475 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF7DDD5818F967CB00434475 /* InfoPlist.strings */; };
+		CF7DDD5C18F967CB00434475 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7DDD5B18F967CB00434475 /* main.m */; };
+		CF7DDD6018F967CB00434475 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7DDD5F18F967CB00434475 /* AppDelegate.m */; };
+		CF7DDD6318F967CB00434475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7DDD6118F967CB00434475 /* Main.storyboard */; };
+		CF7DDD6618F967CB00434475 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7DDD6518F967CB00434475 /* ViewController.m */; };
+		CF7DDD6818F967CB00434475 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7DDD6718F967CB00434475 /* Images.xcassets */; };
+		CF7DDD6F18F967CB00434475 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7DDD6E18F967CB00434475 /* XCTest.framework */; };
+		CF7DDD7018F967CB00434475 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7DDD4F18F967CB00434475 /* Foundation.framework */; };
+		CF7DDD7118F967CB00434475 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7DDD5318F967CB00434475 /* UIKit.framework */; };
+		CF7DDD7918F967CB00434475 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF7DDD7718F967CB00434475 /* InfoPlist.strings */; };
+		CF7DDD7B18F967CB00434475 /* gpsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7DDD7A18F967CB00434475 /* gpsTests.m */; };
+		CF7DDD8518F9686000434475 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7DDD8418F9686000434475 /* CoreLocation.framework */; };
+		CF7DDD8718F9686F00434475 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7DDD8618F9686F00434475 /* MapKit.framework */; };
+		CF7DDD8A18F9771A00434475 /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7DDD8918F9771A00434475 /* MyAnnotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF7DDD7218F967CB00434475 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF7DDD4418F967CB00434475 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF7DDD4B18F967CB00434475;
+			remoteInfo = gps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF7DDD4C18F967CB00434475 /* gps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7DDD4F18F967CB00434475 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF7DDD5118F967CB00434475 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF7DDD5318F967CB00434475 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF7DDD5718F967CB00434475 /* gps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gps-Info.plist"; sourceTree = "<group>"; };
+		CF7DDD5918F967CB00434475 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF7DDD5B18F967CB00434475 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF7DDD5D18F967CB00434475 /* gps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gps-Prefix.pch"; sourceTree = "<group>"; };
+		CF7DDD5E18F967CB00434475 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF7DDD5F18F967CB00434475 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF7DDD6218F967CB00434475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF7DDD6418F967CB00434475 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF7DDD6518F967CB00434475 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF7DDD6718F967CB00434475 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CF7DDD6D18F967CB00434475 /* gpsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gpsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7DDD6E18F967CB00434475 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CF7DDD7618F967CB00434475 /* gpsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gpsTests-Info.plist"; sourceTree = "<group>"; };
+		CF7DDD7818F967CB00434475 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF7DDD7A18F967CB00434475 /* gpsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gpsTests.m; sourceTree = "<group>"; };
+		CF7DDD8418F9686000434475 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CF7DDD8618F9686F00434475 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CF7DDD8818F9771A00434475 /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyAnnotation.h; path = ../../iOS_Geocoding_Sample/MapViewSample/MyAnnotation.h; sourceTree = "<group>"; };
+		CF7DDD8918F9771A00434475 /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyAnnotation.m; path = ../../iOS_Geocoding_Sample/MapViewSample/MyAnnotation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF7DDD4918F967CB00434475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7DDD8718F9686F00434475 /* MapKit.framework in Frameworks */,
+				CF7DDD8518F9686000434475 /* CoreLocation.framework in Frameworks */,
+				CF7DDD5218F967CB00434475 /* CoreGraphics.framework in Frameworks */,
+				CF7DDD5418F967CB00434475 /* UIKit.framework in Frameworks */,
+				CF7DDD5018F967CB00434475 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7DDD6A18F967CB00434475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7DDD6F18F967CB00434475 /* XCTest.framework in Frameworks */,
+				CF7DDD7118F967CB00434475 /* UIKit.framework in Frameworks */,
+				CF7DDD7018F967CB00434475 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF7DDD4318F967CB00434475 = {
+			isa = PBXGroup;
+			children = (
+				CF7DDD5518F967CB00434475 /* gps */,
+				CF7DDD7418F967CB00434475 /* gpsTests */,
+				CF7DDD4E18F967CB00434475 /* Frameworks */,
+				CF7DDD4D18F967CB00434475 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF7DDD4D18F967CB00434475 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF7DDD4C18F967CB00434475 /* gps.app */,
+				CF7DDD6D18F967CB00434475 /* gpsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF7DDD4E18F967CB00434475 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF7DDD8618F9686F00434475 /* MapKit.framework */,
+				CF7DDD8418F9686000434475 /* CoreLocation.framework */,
+				CF7DDD4F18F967CB00434475 /* Foundation.framework */,
+				CF7DDD5118F967CB00434475 /* CoreGraphics.framework */,
+				CF7DDD5318F967CB00434475 /* UIKit.framework */,
+				CF7DDD6E18F967CB00434475 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF7DDD5518F967CB00434475 /* gps */ = {
+			isa = PBXGroup;
+			children = (
+				CF7DDD8818F9771A00434475 /* MyAnnotation.h */,
+				CF7DDD8918F9771A00434475 /* MyAnnotation.m */,
+				CF7DDD5E18F967CB00434475 /* AppDelegate.h */,
+				CF7DDD5F18F967CB00434475 /* AppDelegate.m */,
+				CF7DDD6118F967CB00434475 /* Main.storyboard */,
+				CF7DDD6418F967CB00434475 /* ViewController.h */,
+				CF7DDD6518F967CB00434475 /* ViewController.m */,
+				CF7DDD6718F967CB00434475 /* Images.xcassets */,
+				CF7DDD5618F967CB00434475 /* Supporting Files */,
+			);
+			path = gps;
+			sourceTree = "<group>";
+		};
+		CF7DDD5618F967CB00434475 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF7DDD5718F967CB00434475 /* gps-Info.plist */,
+				CF7DDD5818F967CB00434475 /* InfoPlist.strings */,
+				CF7DDD5B18F967CB00434475 /* main.m */,
+				CF7DDD5D18F967CB00434475 /* gps-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF7DDD7418F967CB00434475 /* gpsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF7DDD7A18F967CB00434475 /* gpsTests.m */,
+				CF7DDD7518F967CB00434475 /* Supporting Files */,
+			);
+			path = gpsTests;
+			sourceTree = "<group>";
+		};
+		CF7DDD7518F967CB00434475 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF7DDD7618F967CB00434475 /* gpsTests-Info.plist */,
+				CF7DDD7718F967CB00434475 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF7DDD4B18F967CB00434475 /* gps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7DDD7E18F967CB00434475 /* Build configuration list for PBXNativeTarget "gps" */;
+			buildPhases = (
+				CF7DDD4818F967CB00434475 /* Sources */,
+				CF7DDD4918F967CB00434475 /* Frameworks */,
+				CF7DDD4A18F967CB00434475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gps;
+			productName = gps;
+			productReference = CF7DDD4C18F967CB00434475 /* gps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF7DDD6C18F967CB00434475 /* gpsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7DDD8118F967CB00434475 /* Build configuration list for PBXNativeTarget "gpsTests" */;
+			buildPhases = (
+				CF7DDD6918F967CB00434475 /* Sources */,
+				CF7DDD6A18F967CB00434475 /* Frameworks */,
+				CF7DDD6B18F967CB00434475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF7DDD7318F967CB00434475 /* PBXTargetDependency */,
+			);
+			name = gpsTests;
+			productName = gpsTests;
+			productReference = CF7DDD6D18F967CB00434475 /* gpsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF7DDD4418F967CB00434475 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mycompany;
+				TargetAttributes = {
+					CF7DDD6C18F967CB00434475 = {
+						TestTargetID = CF7DDD4B18F967CB00434475;
+					};
+				};
+			};
+			buildConfigurationList = CF7DDD4718F967CB00434475 /* Build configuration list for PBXProject "gps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF7DDD4318F967CB00434475;
+			productRefGroup = CF7DDD4D18F967CB00434475 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF7DDD4B18F967CB00434475 /* gps */,
+				CF7DDD6C18F967CB00434475 /* gpsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF7DDD4A18F967CB00434475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7DDD6818F967CB00434475 /* Images.xcassets in Resources */,
+				CF7DDD5A18F967CB00434475 /* InfoPlist.strings in Resources */,
+				CF7DDD6318F967CB00434475 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7DDD6B18F967CB00434475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7DDD7918F967CB00434475 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF7DDD4818F967CB00434475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7DDD6618F967CB00434475 /* ViewController.m in Sources */,
+				CF7DDD6018F967CB00434475 /* AppDelegate.m in Sources */,
+				CF7DDD8A18F9771A00434475 /* MyAnnotation.m in Sources */,
+				CF7DDD5C18F967CB00434475 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7DDD6918F967CB00434475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7DDD7B18F967CB00434475 /* gpsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF7DDD7318F967CB00434475 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF7DDD4B18F967CB00434475 /* gps */;
+			targetProxy = CF7DDD7218F967CB00434475 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF7DDD5818F967CB00434475 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7DDD5918F967CB00434475 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF7DDD6118F967CB00434475 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7DDD6218F967CB00434475 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF7DDD7718F967CB00434475 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7DDD7818F967CB00434475 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF7DDD7C18F967CB00434475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF7DDD7D18F967CB00434475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF7DDD7F18F967CB00434475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gps/gps-Prefix.pch";
+				INFOPLIST_FILE = "gps/gps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF7DDD8018F967CB00434475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gps/gps-Prefix.pch";
+				INFOPLIST_FILE = "gps/gps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CF7DDD8218F967CB00434475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/gps.app/gps";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gps/gps-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "gpsTests/gpsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CF7DDD8318F967CB00434475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/gps.app/gps";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gps/gps-Prefix.pch";
+				INFOPLIST_FILE = "gpsTests/gpsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF7DDD4718F967CB00434475 /* Build configuration list for PBXProject "gps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7DDD7C18F967CB00434475 /* Debug */,
+				CF7DDD7D18F967CB00434475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF7DDD7E18F967CB00434475 /* Build configuration list for PBXNativeTarget "gps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7DDD7F18F967CB00434475 /* Debug */,
+				CF7DDD8018F967CB00434475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF7DDD8118F967CB00434475 /* Build configuration list for PBXNativeTarget "gpsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7DDD8218F967CB00434475 /* Debug */,
+				CF7DDD8318F967CB00434475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF7DDD4418F967CB00434475 /* Project object */;
+}
